@@ -7,11 +7,10 @@
 #### Scit-learn
 #### Keras
 
-
 ## Neural Network utilized:
 ### [Pure Convolutional Neural Network](https://arxiv.org/pdf/1412.6806.pdf)
 
-# Usage
+## Usage
 
 Unzip all images from the task into a directory named 'data'
 
@@ -20,7 +19,7 @@ Unzip all images from the task into a directory named 'data'
 $ python pure_convolutional.py
 ```
 
-## Rotate Downloadedfiles
+## Rotate Downloaded files
 ```
 $ python change_images.py
 ```
@@ -29,3 +28,5 @@ $ python change_images.py
 in 20 epochs the model reached 96% accuracy , without overfitting :)
 
 ![Alt text](https://i.imgur.com/DHoTzgO.png)
+
+
