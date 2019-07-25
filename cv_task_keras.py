@@ -85,7 +85,9 @@ test_x /= 255
 model = Sequential()
 model.add(Conv2D(32, (3, 3), activation='relu', kernel_initializer='he_uniform', input_shape=(64,64, 1)))
 model.add(MaxPooling2D((2, 2)))
+model.add(Dropout(0.25))
 model.add(Flatten())
+model.add(Dense(512, activation='relu', kernel_initializer='he_uniform'))
 model.add(Dense(100, activation='relu', kernel_initializer='he_uniform'))
 model.add(Dense(4, activation='softmax'))
 
@@ -106,13 +108,13 @@ model.summary()
 model.fit(train_x,train_y,
           
               batch_size=32,
-              epochs= 20,
+              epochs= 30,
               validation_data = (test_x,test_y),
               shuffle=True,
               verbose=2)
 
 
-model.save('model5.h5')
+model.save('model.h5')
 
 
 
