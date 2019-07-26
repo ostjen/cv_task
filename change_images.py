@@ -28,7 +28,7 @@ def rotate(model,image):
 
 if __name__ == '__main__':
 	model = load_model('model.h5')
-	for file in glob.glob("data/*.jpg"):
+	for file in glob.glob("trai/n*.jpg"):
 		image_aux = cv2.imread(file,1)
 		new_image = rotate(model,image_aux)
 		cv2.imwrite(file,new_image)

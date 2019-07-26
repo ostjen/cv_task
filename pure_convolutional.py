@@ -57,7 +57,7 @@ if __name__ == '__main__':
   #get all images from the dataset(same indexes as target['fn'])
   images = []
   for name in names:
-      aux = './data/' + name
+      aux = './train/' + name
       images.append(cv2.imread(aux,1))
 
   #encode directions 
