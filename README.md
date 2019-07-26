@@ -8,11 +8,14 @@
 #### Keras
 
 ## Neural Network utilized:
+
 ### [Pure Convolutional Neural Network](https://arxiv.org/pdf/1412.6806.pdf)
+
+
 
 ## Usage
 
-Unzip all images from the task into a directory named 'data'
+Unzip all images in the directory
 
 ## Recreate model
 ```
