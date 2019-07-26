@@ -1,3 +1,4 @@
+.gitattributes
 model.h5
 /train/
 # Byte-compiled / optimized / DLL files
