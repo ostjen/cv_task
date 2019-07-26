@@ -27,9 +27,12 @@ def rotate(model,image):
 
 
 if __name__ == '__main__':
-	model = load_model('model.h5')
-	for file in glob.glob("trai/n*.jpg"):
-		image_aux = cv2.imread(file,1)
-		new_image = rotate(model,image_aux)
-		cv2.imwrite(file,new_image)
-
+    model = load_model('final_model.h5')
+    corrected = []
+    for file in glob.glob("./train/*.jpg"):
+        image_aux = cv2.imread(file,1)
+        new_image = rotate(model,image_aux)
+        corrected.append(new_image)
+    
+    corrected = np.array(corrected)
+    np.save('np_out',corrected)
