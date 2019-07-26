@@ -99,7 +99,7 @@ if __name__ == '__main__':
                       validation_data= (test_x,test_y),
                       verbose=1)
 
-  model.save('model_final.h5')
+  model.save('final_model.h5')
 
 
 
