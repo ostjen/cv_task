@@ -13,23 +13,24 @@
 
 
 
-## Usage
+# Usage
 
-Unzip all images in the directory
+Unzip all images in the root of the repo in a 'train' directory
 
-## Recreate model
+### Recreate model
 ```
 $ python pure_convolutional.py
 ```
 
-## Rotate Downloaded files
+### Rotate images and generate numpy array file(.npy)
 ```
 $ python change_images.py
 ```
 
 # Results
-in 20 epochs the model reached 96% accuracy , without overfitting :)
+in 20 epochs the model reached 96% accuracy 
 
 ![Alt text](https://i.imgur.com/DHoTzgO.png)
 
+#### check the demo :)
 
