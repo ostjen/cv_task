@@ -28,7 +28,7 @@ $ python change_images.py
 ```
 
 # Results
-in 20 epochs the model reached 96% accuracy 
+in 20 epochs the model reached almost 95% accuracy 
 
 ![Alt text](https://i.imgur.com/DHoTzgO.png)
 
