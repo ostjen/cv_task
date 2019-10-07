@@ -7,17 +7,16 @@
 #### Scit-learn
 #### Keras
 
-## Neural Network utilized:
+## Model:
 
 ### [Pure Convolutional Neural Network](https://arxiv.org/pdf/1412.6806.pdf)
-
 
 
 # Usage
 
 Unzip all images in the root of the repo in a 'train' directory
 
-### Recreate model
+### Train
 ```
 $ python pure_convolutional.py
 ```
