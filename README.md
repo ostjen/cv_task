@@ -1,4 +1,4 @@
-[The computer vision task](https://gist.github.com/csaftoiu/9fccaf47fd8f96cd378afd8fdd0d63c1) is to create a neural network which takes an image of a face as input and returns its orientation - upright, rotated_left, rotated_right, or upside_down - and use this neural network to correct the images in the test set.
+[The computer vision task](https://gist.github.com/csaftoiu/9fccaf47fd8f96cd378afd8fdd0d63c1) is to create a neural network which takes an image of a face as input and returns its orientation - upright, rotated_left, rotated_right, or upside_down - and use this neural network to classify and correct the images in the test set.
 
 ## Dependencies
 #### OpenCV
@@ -14,7 +14,7 @@
 
 # Usage
 
-Unzip all images in the root of the repo in a 'train' directory
+Unzip all images into the root of the repo in a 'train' directory
 
 ### Train
 ```
